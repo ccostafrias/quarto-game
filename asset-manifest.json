@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quarto-game/static/css/main.8a70efe9.css",
+    "main.js": "/quarto-game/static/js/main.76073054.js",
+    "index.html": "/quarto-game/index.html",
+    "main.8a70efe9.css.map": "/quarto-game/static/css/main.8a70efe9.css.map",
+    "main.76073054.js.map": "/quarto-game/static/js/main.76073054.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a70efe9.css",
+    "static/js/main.76073054.js"
+  ]
+}
