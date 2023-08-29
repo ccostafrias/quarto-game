@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quarto-game/static/css/main.54a12479.css",
-    "main.js": "/quarto-game/static/js/main.d0737425.js",
+    "main.css": "/quarto-game/static/css/main.c5bfdc4e.css",
+    "main.js": "/quarto-game/static/js/main.a951a315.js",
     "index.html": "/quarto-game/index.html",
-    "main.54a12479.css.map": "/quarto-game/static/css/main.54a12479.css.map",
-    "main.d0737425.js.map": "/quarto-game/static/js/main.d0737425.js.map"
+    "main.c5bfdc4e.css.map": "/quarto-game/static/css/main.c5bfdc4e.css.map",
+    "main.a951a315.js.map": "/quarto-game/static/js/main.a951a315.js.map"
   },
   "entrypoints": [
-    "static/css/main.54a12479.css",
-    "static/js/main.d0737425.js"
+    "static/css/main.c5bfdc4e.css",
+    "static/js/main.a951a315.js"
   ]
 }
