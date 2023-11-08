@@ -15,6 +15,13 @@ export default function App() {
         2: 0,
     })
 
+    useEffect(() => {
+        setScore({
+            1: 0,
+            2: 0,
+        })
+    }, [])
+
     const actualElement = (() => {
         if (gameState === 'menu') {
             return (

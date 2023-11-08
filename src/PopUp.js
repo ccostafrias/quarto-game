@@ -7,7 +7,8 @@ export default function PopUp(props) {
         winClass, 
         direction,
         resetGame,
-        setResetGame
+        setResetGame,
+        setGameState,
     } = props
     const [isDown, setIsDown] = useState(false)
     const arrowDown = useRef(null)
@@ -64,12 +65,20 @@ export default function PopUp(props) {
                                 <span className="class">{direction}</span>
                             </div>
                         </div>
-                        <button 
-                            className="bttn"
-                            onClick={restartGame}
-                        >
-                            Restart
-                        </button>
+                        <div className="bttn-wrapper">
+                            <button
+                                className="bttn light"
+                                onClick={() => setGameState('menu')}
+                            >
+                                New Game
+                            </button>
+                            <button
+                                className="bttn"
+                                onClick={restartGame}
+                            >
+                                Restart
+                            </button>
+                        </div>
                     </div>
                     <div 
                         className="arrow-wrapper" 

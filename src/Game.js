@@ -12,6 +12,7 @@ export default function Game(props) {
         setResetGame,
         score,
         setScore,
+        setGameState
     } = props
 
     const classifications = {
@@ -344,10 +345,12 @@ export default function Game(props) {
                     direction={win.direction}
                     resetGame={resetGame}
                     setResetGame={setResetGame}
+                    setGameState={setGameState}
                 />
             )}
             <Score 
                 score={score}
+                player={stage.player}
             />
 
             <Table 

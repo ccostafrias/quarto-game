@@ -13,7 +13,10 @@ export default function Progress(props) {
 
     return (
         <footer className="progress-wrapper">
-            <span className="turn-bar">Player's {stage.player} Turn</span>
+            {/* <span className="turn-bar">Player's {stage.player} Turn</span> */}
+            <span className="stage">
+                {stage.stage}
+            </span>
             {!isZen && (
                 <div className="progress">
                     <Bar 
@@ -32,10 +35,6 @@ export default function Progress(props) {
                     />
                 </div>
             )}
-            <span className="stage">
-                {stage.stage}
-            </span>
-
         </footer>
     )
 }
